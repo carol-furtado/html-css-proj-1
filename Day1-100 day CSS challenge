@@ -1,0 +1,80 @@
+
+<head>
+   <style>.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+	overflow: hidden;
+  background: #fff;
+  color: #333;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);}
+
+div.center{width:150px;}
+
+.one{
+text-align:center;
+text-shadow:2px 2px 4px #000000;
+display:inline-block;
+font-family:Candara;
+font-size:155px;
+margin:-40px -13px;
+font-weight:bold;
+position:static;
+color:white;}
+
+div#firstzero{z-index:2;
+position:relative;}
+
+div#secondzero{z-index:1;
+position:relative;}
+
+div#one{z-index:3;
+position:relative;}
+
+
+#two  {font-size:55px;
+text-align:center;
+margin:2px;
+font-weight:bold;text-shadow:2px 2px 4px #000000;
+font-family: Courier New;
+color:white;}
+
+#three{
+text-shadow:2px 2px 4px #000000;
+font-family:Courier New;
+text-align:center;
+font-size:17px;
+color:white;
+margin:-9px;
+font-weight:bold;}
+
+.frame{background:linear-gradient(to top right,#00008B,#4B4BFF, #30D5C8,#30D5C8)}
+
+
+
+</style>
+</head>
+
+
+<body><div class="frame">
+  <div class="center">
+		<div class="one" id="one">1</div><div class="one" id="firstzero">0</div><div   class="one" id="secondzero">0</div>
+		<p id="two">DAYS</p>
+		<p id="three">CSS CHALLENGE</p>
+  </div>
+</div>
+</body>
